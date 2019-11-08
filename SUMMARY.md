@@ -11,9 +11,9 @@
         * [3.2 Spring 框架](32-spring-框架.md)
     * [4.使用Spring Data Repository](使用spring-data-repository.md)
         * [4.1 核心概念](41-核心概念.md)
-        * 4.2 查询方法
+        * [4.2 查询方法](42-查询方法.md)
         * 4.3 定义Repository接口
-        * 4.4 定义查询方法
+        * [4.4 定义查询方法](44-定义查询方法.md)
         * 4.5 创建Repository实例
         * 4.6 自定义Spring Data Repository实现
         * 4.7 发布聚合根事件
