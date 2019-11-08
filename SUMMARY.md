@@ -8,9 +8,9 @@
         * [2.1 Spring Data JPA 1.10的新增功能](21-spring-data-jpa-110的新增功能.md)
     * [3.依赖](3依赖.md)
         * [3.1 使用Spring Boot进行依赖管理](使用spring-boot进行依赖管理.md)
-        * 3.2 Spring 框架
+        * [3.2 Spring 框架](32-spring-框架.md)
     * [4.使用Spring Data Repository](使用spring-data-repository.md)
-        * 4.1 核心概念
+        * [4.1 核心概念](41-核心概念.md)
         * 4.2 查询方法
         * 4.3 定义Repository接口
         * 4.4 定义查询方法
