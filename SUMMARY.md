@@ -4,8 +4,8 @@
 * [前言](前言.md)
     * [1.项目元数据](项目元数据.md)
     * [2.新版特性](新版特性.md)
-        * 2.1 Spring Data JPA 1.11的新增功能
-        * 2.1 Spring Data JPA 1.10的新增功能
+        * [2.1 Spring Data JPA 1.11的新增功能](21-spring-data-jpa-111的新增功能.md)
+        * [2.1 Spring Data JPA 1.10的新增功能](21-spring-data-jpa-110的新增功能.md)
     * [3.依赖](3依赖.md)
         * [3.1 使用Spring Boot进行依赖管理](使用spring-boot进行依赖管理.md)
         * 3.2 Spring 框架
