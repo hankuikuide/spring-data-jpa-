@@ -1,75 +1,75 @@
-# Summary
+# Table of contents
 
 * [Spring Data JPA 参考文档中文版](README.md)
-* [前言](前言.md)
-    * [1.项目元数据](项目元数据.md)
-    * [2.新版特性](新版特性.md)
-        * [2.1 Spring Data JPA 1.11的新增功能](21-spring-data-jpa-111的新增功能.md)
-        * [2.1 Spring Data JPA 1.10的新增功能](21-spring-data-jpa-110的新增功能.md)
-    * [3.依赖](3依赖.md)
-        * [3.1 使用Spring Boot进行依赖管理](使用spring-boot进行依赖管理.md)
-        * [3.2 Spring 框架](32-spring-框架.md)
-    * [4.使用Spring Data Repository](使用spring-data-repository.md)
-        * [4.1 核心概念](41-核心概念.md)
-        * [4.2 查询方法](42-查询方法.md)
-        * 4.3 定义Repository接口
-        * [4.4 定义查询方法](44-定义查询方法.md)
-        * 4.5 创建Repository实例
-        * 4.6 自定义Spring Data Repository实现
-        * 4.7 发布聚合根事件
-        * [4.8 Spring Data 扩展](spring-data-扩展.md)
-* [参考文档](chapter1.md)
-    * [5.JPA Repository](jpa-repository.md)
-        * [5.1 介绍](51-介绍.md)
-            * [5.1.1 Spring 命名空间](511-spring-命名空间.md)
-                * 自定义命名空间属性
-            * 5.1.2 基于注解的配置
-            * [5.1.3 启动模式](513-启动模式.md)
-                * 推荐
-        * [5.2 持久化实体](52-持久化实体.md)
-            * 5.2.1 保存实体
-                * 实体状态检测策略
-        * [5.3 查询方法](53-查询方法.md)
-            * [5.3.1 查询查找策略](531-查询查找策略.md)
-                * 声明查询
-            * 5.3.2 创建查询
-            * [5.3.3 使用JPA命名查询](533-使用jpa命名查询.md)
-                * 基于xml的命名查询
-                * 基于注解的配置
-                * 声明接口
-            * [5.3.4 使用@Query](534-使用query.md)
-                * 使用高级LIKE表达式
-                * 原生查询
-            * [5.3.5 使用排序Sort](使用排序sort.md)
-            * 5.3.6 使用命名参数
-            * 5.3.7 使用SpEL 表达式
-            * [5.3.8 修改](538-修改查询.md)
-                * 删除
-            * 5.3.9 使用查询Hints
-            * 5.3.10 配置Fetch和LoadGraphs
-            * [5.3.11 映射](5311-映射.md)
-                * 基于接口的映射
-                * [基于类DTO的映射](基于.md)
-                * 动态映射
-        * 5.4 存储过程
-        * 5.5 Specifications
-        * 5.6 Example查询
-            * 5.6.1 介绍
-            * 5.6.2 Example Matches
-            * 5.6.3 执行一个例子
-        * [5.7 事务](57-事务.md)
-            * 5.7.1 带事务的查询方法
-        * 5.8 锁
-        * 5.9 审计
-            * 5.9.1基础
-                * 基于注解的审计元数据
-                * 基于接口的审计元数据
-                * 审核人员
-            * [5.9.2 JPA审计](592-jpa审计.md)
-                * 通用审核配置
-        * 5.10  其他
-            * 5.10.1 在自定义实现中使用JpaContext
-            * 5.10.2 合并持久化单元
-            * [5.10.3 CDI集成](5103.md)
-* 附录
+* [前言](qian-yan/README.md)
+  * [1.项目元数据](qian-yan/xiang-mu-yuan-shu-ju.md)
+  * [2.新版特性](qian-yan/xin-ban-te-xing/README.md)
+    * [2.1 Spring Data JPA 1.11的新增功能](qian-yan/xin-ban-te-xing/21springdatajpa111-de-xin-zeng-gong-neng.md)
+    * [2.1 Spring Data JPA 1.10的新增功能](qian-yan/xin-ban-te-xing/21springdatajpa110-de-xin-zeng-gong-neng.md)
+  * [3.依赖](qian-yan/3-yi-lai/README.md)
+    * [3.1 使用Spring Boot进行依赖管理](qian-yan/3-yi-lai/shi-yong-springboot-jin-hang-yi-lai-guan-li.md)
+    * [3.2 Spring 框架](qian-yan/3-yi-lai/32spring-kuang-jia.md)
+  * [4.使用Spring Data Repository](qian-yan/shi-yong-springdatarepository/README.md)
+    * [4.1 核心概念](qian-yan/shi-yong-springdatarepository/41-he-xin-gai-nian.md)
+    * [4.2 查询方法](qian-yan/shi-yong-springdatarepository/42-cha-xun-fang-fa.md)
+    * [4.3 定义Repository接口](qian-yan/shi-yong-springdatarepository/4.3-ding-yi-repository-jie-kou.md)
+    * [4.4 定义查询方法](qian-yan/shi-yong-springdatarepository/44-ding-yi-cha-xun-fang-fa.md)
+    * [4.5 创建Repository实例](qian-yan/shi-yong-springdatarepository/4.5-chuang-jian-repository-shi-li.md)
+    * [4.6 自定义Spring Data Repository实现](qian-yan/shi-yong-springdatarepository/4.6-zi-ding-yi-spring-data-repository-shi-xian.md)
+    * [4.7 发布聚合根事件](qian-yan/shi-yong-springdatarepository/4.7-fa-bu-ju-he-gen-shi-jian.md)
+    * [4.8 Spring Data 扩展](qian-yan/shi-yong-springdatarepository/springdata-kuo-zhan.md)
+* [参考文档](chapter1/README.md)
+  * [5.JPA Repository](chapter1/jpa-repository/README.md)
+    * [5.1 介绍](chapter1/jpa-repository/51-jie-shao/README.md)
+      * [5.1.1 Spring 命名空间](chapter1/jpa-repository/51-jie-shao/511spring-ming-ming-kong-jian/README.md)
+        * [自定义命名空间属性](chapter1/jpa-repository/51-jie-shao/511spring-ming-ming-kong-jian/zi-ding-yi-ming-ming-kong-jian-shu-xing.md)
+      * [5.1.2 基于注解的配置](chapter1/jpa-repository/51-jie-shao/5.1.2-ji-yu-zhu-jie-de-pei-zhi.md)
+      * [5.1.3 启动模式](chapter1/jpa-repository/51-jie-shao/513-qi-dong-mo-shi/README.md)
+        * [推荐](chapter1/jpa-repository/51-jie-shao/513-qi-dong-mo-shi/tui-jian.md)
+    * [5.2 持久化实体](chapter1/jpa-repository/52-chi-jiu-hua-shi-ti/README.md)
+      * [5.2.1 保存实体](chapter1/jpa-repository/52-chi-jiu-hua-shi-ti/5.2.1-bao-cun-shi-ti/README.md)
+        * [实体状态检测策略](chapter1/jpa-repository/52-chi-jiu-hua-shi-ti/5.2.1-bao-cun-shi-ti/shi-ti-zhuang-tai-jian-ce-ce-lve.md)
+    * [5.3 查询方法](chapter1/jpa-repository/53-cha-xun-fang-fa/README.md)
+      * [5.3.1 查询查找策略](chapter1/jpa-repository/53-cha-xun-fang-fa/531-cha-xun-cha-zhao-ce-lve/README.md)
+        * [声明查询](chapter1/jpa-repository/53-cha-xun-fang-fa/531-cha-xun-cha-zhao-ce-lve/sheng-ming-cha-xun.md)
+      * [5.3.2 创建查询](chapter1/jpa-repository/53-cha-xun-fang-fa/5.3.2-chuang-jian-cha-xun.md)
+      * [5.3.3 使用JPA命名查询](chapter1/jpa-repository/53-cha-xun-fang-fa/533-shi-yong-jpa-ming-ming-cha-xun/README.md)
+        * [基于xml的命名查询](chapter1/jpa-repository/53-cha-xun-fang-fa/533-shi-yong-jpa-ming-ming-cha-xun/ji-yu-xml-de-ming-ming-cha-xun.md)
+        * [基于注解的配置](chapter1/jpa-repository/53-cha-xun-fang-fa/533-shi-yong-jpa-ming-ming-cha-xun/ji-yu-zhu-jie-de-pei-zhi.md)
+        * [声明接口](chapter1/jpa-repository/53-cha-xun-fang-fa/533-shi-yong-jpa-ming-ming-cha-xun/sheng-ming-jie-kou.md)
+      * [5.3.4 使用@Query](chapter1/jpa-repository/53-cha-xun-fang-fa/534-shi-yong-query/README.md)
+        * [使用高级LIKE表达式](chapter1/jpa-repository/53-cha-xun-fang-fa/534-shi-yong-query/shi-yong-gao-ji-like-biao-da-shi.md)
+        * [原生查询](chapter1/jpa-repository/53-cha-xun-fang-fa/534-shi-yong-query/yuan-sheng-cha-xun.md)
+      * [5.3.5 使用排序Sort](chapter1/jpa-repository/53-cha-xun-fang-fa/shi-yong-pai-xu-sort.md)
+      * [5.3.6 使用命名参数](chapter1/jpa-repository/53-cha-xun-fang-fa/5.3.6-shi-yong-ming-ming-can-shu.md)
+      * [5.3.7 使用SpEL 表达式](chapter1/jpa-repository/53-cha-xun-fang-fa/5.3.7-shi-yong-spel-biao-da-shi.md)
+      * [5.3.8 修改](chapter1/jpa-repository/53-cha-xun-fang-fa/538-xiu-gai-cha-xun/README.md)
+        * [删除](chapter1/jpa-repository/53-cha-xun-fang-fa/538-xiu-gai-cha-xun/shan-chu.md)
+      * [5.3.9 使用查询Hints](chapter1/jpa-repository/53-cha-xun-fang-fa/5.3.9-shi-yong-cha-xun-hints.md)
+      * [5.3.10 配置Fetch和LoadGraphs](chapter1/jpa-repository/53-cha-xun-fang-fa/5.3.10-pei-zhi-fetch-he-loadgraphs.md)
+      * [5.3.11 映射](chapter1/jpa-repository/53-cha-xun-fang-fa/5311-ying-she/README.md)
+        * [基于接口的映射](chapter1/jpa-repository/53-cha-xun-fang-fa/5311-ying-she/ji-yu-jie-kou-de-ying-she.md)
+        * [基于类DTO的映射](chapter1/jpa-repository/53-cha-xun-fang-fa/5311-ying-she/ji-yu.md)
+        * [动态映射](chapter1/jpa-repository/53-cha-xun-fang-fa/5311-ying-she/dong-tai-ying-she.md)
+    * [5.4 存储过程](chapter1/jpa-repository/5.4-cun-chu-guo-cheng.md)
+    * [5.5 Specifications](chapter1/jpa-repository/5.5-specifications.md)
+    * [5.6 Example查询](chapter1/jpa-repository/5.6-example-cha-xun/README.md)
+      * [5.6.1 介绍](chapter1/jpa-repository/5.6-example-cha-xun/5.6.1-jie-shao.md)
+      * [5.6.2 Example Matches](chapter1/jpa-repository/5.6-example-cha-xun/5.6.2-example-matches.md)
+      * [5.6.3 执行一个例子](chapter1/jpa-repository/5.6-example-cha-xun/5.6.3-zhi-hang-yi-ge-li-zi.md)
+    * [5.7 事务](chapter1/jpa-repository/57-shi-wu/README.md)
+      * [5.7.1 带事务的查询方法](chapter1/jpa-repository/57-shi-wu/5.7.1-dai-shi-wu-de-cha-xun-fang-fa.md)
+    * [5.8 锁](chapter1/jpa-repository/5.8-suo.md)
+    * [5.9 审计](chapter1/jpa-repository/5.9-shen-ji/README.md)
+      * [5.9.1基础](chapter1/jpa-repository/5.9-shen-ji/5.9.1-ji-chu/README.md)
+        * [基于注解的审计元数据](chapter1/jpa-repository/5.9-shen-ji/5.9.1-ji-chu/ji-yu-zhu-jie-de-shen-ji-yuan-shu-ju.md)
+        * [基于接口的审计元数据](chapter1/jpa-repository/5.9-shen-ji/5.9.1-ji-chu/ji-yu-jie-kou-de-shen-ji-yuan-shu-ju.md)
+        * [审核人员](chapter1/jpa-repository/5.9-shen-ji/5.9.1-ji-chu/shen-he-ren-yuan.md)
+      * [5.9.2 JPA审计](chapter1/jpa-repository/5.9-shen-ji/592jpa-shen-ji/README.md)
+        * [通用审核配置](chapter1/jpa-repository/5.9-shen-ji/592jpa-shen-ji/tong-yong-shen-he-pei-zhi.md)
+    * [5.10  其他](chapter1/jpa-repository/5.10-qi-ta/README.md)
+      * [5.10.1 在自定义实现中使用JpaContext](chapter1/jpa-repository/5.10-qi-ta/5.10.1-zai-zi-ding-yi-shi-xian-zhong-shi-yong-jpacontext.md)
+      * [5.10.2 合并持久化单元](chapter1/jpa-repository/5.10-qi-ta/5.10.2-he-bing-chi-jiu-hua-dan-yuan.md)
+      * [5.10.3 CDI集成](chapter1/jpa-repository/5.10-qi-ta/5103.md)
+* [附录](fu-lu.md)
 
