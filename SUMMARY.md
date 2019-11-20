@@ -18,6 +18,7 @@
     * [4.4 定义查询方法](qian-yan/shi-yong-springdatarepository/44-ding-yi-cha-xun-fang-fa/README.md)
       * [4.4.1 查询查找策略](qian-yan/shi-yong-springdatarepository/44-ding-yi-cha-xun-fang-fa/4.4.1-cha-xun-cha-zhao-ce-lve.md)
       * [4.4.2 创建查询](qian-yan/shi-yong-springdatarepository/44-ding-yi-cha-xun-fang-fa/4.4.2-chuang-jian-cha-xun.md)
+      * [4.4.3 查询表达式](qian-yan/shi-yong-springdatarepository/44-ding-yi-cha-xun-fang-fa/4.4.3-cha-xun-biao-da-shi.md)
     * [4.5 创建Repository实例](qian-yan/shi-yong-springdatarepository/4.5-chuang-jian-repository-shi-li.md)
     * [4.6 自定义Spring Data Repository实现](qian-yan/shi-yong-springdatarepository/4.6-zi-ding-yi-spring-data-repository-shi-xian.md)
     * [4.7 发布聚合根事件](qian-yan/shi-yong-springdatarepository/4.7-fa-bu-ju-he-gen-shi-jian.md)
